@@ -1,0 +1,24 @@
+body {
+    margin: 20px;
+}
+
+.container{
+text-align: center;
+width: 300px;
+height: 200px;
+padding-top: 100px;
+}
+
+#infoText{
+    text-align: justify ;
+}
+
+#valueDisplay{
+    font-size: 30px;
+}
+
+#generateButton{
+font-size: 25px;
+margin-top: 80px;
+padding: 5px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random number generator for language learning</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="script.js" type="text/javascript"></script>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+    <p id="infoText">See how many numbers you can say aloud in your target language within the time limit! Press the Generate button to start. </p>
+    <div>Time : <span id="time">60</span></div>
+    <div>Count : <span id="countDisplay">0</span></div>
+    <div class="container">
+    <div id="numDisplay">100</div>
+    <input id="generateButton" type="button" value="Generate" onClick="generateNumber()"/>
+        </div>
+    </body>
+</html>
